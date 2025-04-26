@@ -32,14 +32,14 @@ print cast(@years as varchar) + ' years ' + cast(@months as varchar) + ' months 
 + cast(@days as varchar) + ' days'
 
 
-select getdate() -- 2024-07-16 11:17:10.810
-select cast(getdate() as varchar) -- Jul 16 2024 11:17AM
-select convert(varchar, getdate()) -- Jul 16 2024 11:17AM
-select convert(varchar, getdate(), 100) -- Jul 16 2024 11:18AM
-select convert(varchar, getdate(), 101) -- 07/16/2024
-select convert(varchar, getdate(), 102) -- 2024.07.16
-select convert(varchar, getdate(), 104) -- 16.07.2024
-select convert(varchar, getdate(), 105) -- 16-07-2024
+select getdate() 
+select cast(getdate() as varchar)
+select convert(varchar, getdate()) 
+select convert(varchar, getdate(), 100) 
+select convert(varchar, getdate(), 101)
+select convert(varchar, getdate(), 102) 
+select convert(varchar, getdate(), 104) 
+select convert(varchar, getdate(), 105) 
 
 
 
