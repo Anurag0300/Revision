@@ -1,3 +1,1 @@
-deffd
-cvdfwew
-rerere
+print("Hello")
